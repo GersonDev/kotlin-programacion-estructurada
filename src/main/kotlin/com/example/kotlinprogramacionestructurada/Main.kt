@@ -1,5 +1,7 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+    println("Programa que calcule el cuadrado de 243:")
+    val cuadrado = CalcularCuadrado()
+    imprimirResultado(cuadrado)
 }
