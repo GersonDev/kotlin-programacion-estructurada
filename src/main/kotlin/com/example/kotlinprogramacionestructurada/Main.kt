@@ -1,4 +1,5 @@
 package com.example.kotlinprogramacionestructurada
 
-class Main {
+fun main() {
+    println("${calcularSuma(5,6)}")
 }
