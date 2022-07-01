@@ -6,8 +6,13 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `dado los numeros 5 y 6 entonces la suma debe ser 11`() {
-        val suma = calcularSuma(5, 6)
-        assertTrue(suma == 11)
+    fun `dado los numeros dos numero calcular cociente`() {
+        val cociente = calcularCociente(5, 6)
+        assertTrue(cociente == 0)
+    }
+    @Test
+    fun `dado los numeros dos numero calcular residuo`() {
+        val residuo = calcularResiduo(5, 6)
+        assertTrue(residuo == 5)
     }
 }
