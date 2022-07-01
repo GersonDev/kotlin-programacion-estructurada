@@ -6,8 +6,13 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `dado los numeros 5 y 6 entonces la suma debe ser 11`() {
-        val suma = calcularSuma(5, 6)
-        assertTrue(suma == 11)
+    fun `calcular su perimetro dado el radio`() {
+        val perimetro = calcularPerimetro(5.0)
+        assertTrue(perimetro == 31.400000000000002)
+    }
+    @Test
+    fun `calcular su area dado el radio`() {
+        val area = calcularArea(5.0)
+        assertTrue(area == 78.5)
     }
 }
