@@ -6,8 +6,14 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `dado los numeros 5 y 6 entonces la suma debe ser 11`() {
-        val suma = calcularSuma(5, 6)
-        assertTrue(suma == 11)
+    fun `dado el numero 10, entonces asertar que es par`() {
+        val esPar = esUnNumeroPar(10)
+        assertTrue(esPar)
+    }
+
+    @Test
+    fun `dado el numero 11, entonces asertar que es impar`() {
+        val esPar = esUnNumeroPar(11)
+        assertFalse(esPar)
     }
 }
