@@ -1,6 +1,9 @@
 package com.example.kotlinprogramacionestructurada
 
-fun calcularSuma(a: Int, b: Int): Int {
-    val suma = a + b
-    return suma
+fun calcularSuma(primerNumero: Int, segundoNumero: Int): Int {
+    return primerNumero + segundoNumero
+}
+
+fun imprimirResultado(suma: Int) {
+    print("La suma es: $suma")
 }
