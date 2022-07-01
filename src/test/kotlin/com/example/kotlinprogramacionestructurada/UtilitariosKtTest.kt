@@ -6,8 +6,13 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `dado los numeros 5 y 6 entonces la suma debe ser 11`() {
-        val suma = calcularSuma(5, 6)
-        assertTrue(suma == 11)
+    fun `dado el ingreso del apotema y lado debe calcularse el area  del pentagono`() {
+        val area = calcularAreaPentagono(5, 6)
+        assertTrue(area == 15)
+    }
+    @Test
+    fun `dado el ingreso de el lado debe calcularse el perimetro del pentagono`() {
+        val perimetro = calcularPerimetroPentagono(5)
+        assertTrue(perimetro == 25)
     }
 }
