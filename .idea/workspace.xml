@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc9dc7da-4e9c-4ac6-a255-436cd1cf3e26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="bc9dc7da-4e9c-4ac6-a255-436cd1cf3e26" name="Changes" comment="Ejercicio 24:area de un cuadrado, un rectangulo y triangulo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlinprogramacionestructurada/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlinprogramacionestructurada/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlinprogramacionestructurada/Utilitarios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/kotlinprogramacionestructurada/Utilitarios.kt" afterDir="false" />
@@ -48,7 +46,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ejercicio1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,16 +69,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_opened_file_path": "C:/Users/RoanldoxD/IdeaProjects/Kotlin duplicado programacion-estructurada",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RoanldoxD/IdeaProjects/Kotlin duplicado programacion-estructurada&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -89,7 +87,7 @@
       <recent name="com.example.kotlinprogramacionestructurada" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UtilitariosKtTest">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="UtilitariosKtTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -157,7 +155,7 @@
         <item itemvalue="JUnit.MainKtTest.main" />
         <item itemvalue="JUnit.MainKtTest" />
         <item itemvalue="Gradle.UtilitariosKtTest" />
-        <item itemvalue="Gradle.UtilitariosKtTest" />
+        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +168,21 @@
       <option name="presentableId" value="Default" />
       <updated>1656658186431</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ejercicio 23:area de un cuadrado, un rectangulo y triangulo">
+      <created>1656774471647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656774471647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ejercicio 24:area de un cuadrado, un rectangulo y triangulo">
+      <created>1656774648153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656774648153</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,5 +195,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ejercicio 23:area de un cuadrado, un rectangulo y triangulo" />
+    <MESSAGE value="Ejercicio 24:area de un cuadrado, un rectangulo y triangulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 24:area de un cuadrado, un rectangulo y triangulo" />
   </component>
 </project>
