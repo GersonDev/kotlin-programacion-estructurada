@@ -6,8 +6,8 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `dado los numeros 5 y 6 entonces la suma debe ser 11`() {
-        val suma = calcularSuma(5, 6)
-        assertTrue(suma == 11)
+    fun `dado ingresa el peso como la estarura calcular peso ideal`() {
+        val pesoIdeal = calcularPesoIdeal( 173 )
+        assertTrue(pesoIdeal == 73)
     }
 }
