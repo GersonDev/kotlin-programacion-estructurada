@@ -1,6 +1,9 @@
 package com.example.kotlinprogramacionestructurada
 
-fun calcularSuma(a: Int, b: Int): Int {
-    val suma = a + b
-    return suma
+fun calcularPorcentaje(numero: Int, porcentaje: Int): Int {
+    return (numero * porcentaje) / 100
+}
+
+fun imprimirResultado(resultado: Int, numero: Int, porcentaje: Int) {
+    println("El $porcentaje%  de $numero  es: $resultado")
 }
