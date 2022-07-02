@@ -1,5 +1,7 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+    println("Ingrese la cantidad de numeros: ")
+    var cantidadDeNumeros = readLine()!!.toInt()
+    calcularGrandePequeñoMedio(cantidadDeNumeros)
 }
