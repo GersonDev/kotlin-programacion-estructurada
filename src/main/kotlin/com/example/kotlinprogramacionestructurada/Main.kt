@@ -1,5 +1,8 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+    println("Programa pàra saber el angulo ")
+    println("Ingrese numero de angulo: ")
+    val numeroDeAngulo = readLine()!!.toInt()
+    imprimirAngulo(numeroDeAngulo)
 }
