@@ -1,6 +1,9 @@
 package com.example.kotlinprogramacionestructurada
 
-fun calcularSuma(a: Int, b: Int): Int {
-    val suma = a + b
-    return suma
+fun imparesDelSieteAlCincuentaYUno() {
+    var i = 7
+    while (i <= 51) {
+        println(i)
+        i += 2
+    }
 }
