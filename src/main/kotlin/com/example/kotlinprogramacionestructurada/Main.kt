@@ -1,5 +1,8 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+    println("**** Programa para indicar si un numero es divisible entre 2 y 5 ****")
+    println("Ingrese numero: ")
+    val primerNumero = readLine()!!.toInt()
+    imprimirSiesDivisible(primerNumero)
 }

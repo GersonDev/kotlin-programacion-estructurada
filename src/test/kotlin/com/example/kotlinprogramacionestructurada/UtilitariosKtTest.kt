@@ -5,9 +5,9 @@ import org.junit.Assert.*
 
 class UtilitariosKtTest {
 
-    @Test
-    fun `dado los numeros 5 y 6 entonces la suma debe ser 11`() {
-        val suma = calcularSuma(5, 6)
-        assertTrue(suma == 11)
+   @Test
+    fun `dado el ingreso de un numero calcular si es multiplo de 2 y 5`() {
+        val siElmultiplo = calcularSiEsDivisible(10)
+        assertTrue(siElmultiplo)
     }
 }
