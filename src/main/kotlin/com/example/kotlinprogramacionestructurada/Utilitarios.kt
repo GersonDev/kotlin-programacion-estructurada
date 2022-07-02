@@ -1,6 +1,9 @@
 package com.example.kotlinprogramacionestructurada
 
-fun calcularSuma(a: Int, b: Int): Int {
-    val suma = a + b
-    return suma
+fun calcularHipotenusa(primerCateto: Int, segundoCateto: Int): Int {
+    return ((primerCateto * segundoCateto) + (primerCateto * segundoCateto)) / 5
+}
+
+fun imprimirResultado(hipotenusa: Int) {
+    println("La hipotenusa del triangulo rectangulo es: $hipotenusa")
 }
