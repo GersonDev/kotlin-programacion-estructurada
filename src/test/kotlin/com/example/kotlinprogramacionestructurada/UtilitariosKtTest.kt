@@ -6,7 +6,7 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `dado los numeros 5 y 6 entonces la suma debe ser 11`() {
+    fun `dado los numeros 4 numeros calcular el mayor`() {
         val calcularElMayor = calcularElMayor(5, 6,10,2)
     }
 }
