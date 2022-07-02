@@ -1,5 +1,8 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+    println("**** Programa que indique si un numero es multiplo de 6 ****")
+    println("Ingrese numero: ")
+    val primerNumero = readLine()!!.toInt()
+    imprimirResultado(primerNumero)
 }
