@@ -6,8 +6,7 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `dado los numeros 5 y 6 entonces la suma debe ser 11`() {
-        val suma = calcularSuma(5, 6)
-        assertTrue(suma == 11)
+    fun `dia de semana `() {
+        val imprimir = imprimirDiaDeSemana(2)
     }
 }
