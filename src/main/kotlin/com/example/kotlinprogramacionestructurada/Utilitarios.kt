@@ -5,6 +5,7 @@ fun calcularDivisible(numero: Int): Boolean {
         return true
     return false
 }
+
 fun imprimirDivisible(numero: Int) {
     val divisible = calcularDivisible(numero)
     if (divisible)
