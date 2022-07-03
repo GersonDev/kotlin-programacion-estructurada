@@ -1,7 +1,6 @@
 package com.example.kotlinprogramacionestructurada
 
 fun calcularElQueVendioMas() {
-    println("PROGRAMA DE VENTAS DE CAJEROS")
     var a = 0
     var h = 0
     var k = 0
