@@ -6,8 +6,8 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
    @Test
-    fun `dado el ingreso de un numero calcular si es multiplo de 2 y 5`() {
-        val siElmultiplo = calcularSiEsDivisible(10)
-        assertTrue(siElmultiplo)
+    fun `dado el ingreso del  numero 10 calcular si es multiplo de 2 y 5`() {
+        val siEsmultiplo = calcularSiEsDivisible(10)
+        assertTrue(siEsmultiplo)
     }
 }
