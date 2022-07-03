@@ -5,8 +5,5 @@ import org.junit.Assert.*
 
 class UtilitariosKtTest {
 
-    @Test
-    fun `calcular area cuadrado,rectangulo,triangulo`() {
 
-    }
 }
