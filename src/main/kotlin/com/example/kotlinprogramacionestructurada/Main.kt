@@ -1,5 +1,6 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+    println("programa que te de la suma de 25 numeros")
+    imprimirSuma()
 }
