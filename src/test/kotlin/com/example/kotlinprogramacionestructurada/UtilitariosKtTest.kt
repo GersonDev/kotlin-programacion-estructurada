@@ -5,8 +5,5 @@ import org.junit.Assert.*
 
 class UtilitariosKtTest {
 
-    @Test
-    fun `dado `() {
 
-    }
 }
