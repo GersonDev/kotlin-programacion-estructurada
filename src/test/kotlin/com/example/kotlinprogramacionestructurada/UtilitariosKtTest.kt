@@ -6,7 +6,7 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `dado ingresa el peso como la estarura calcular peso ideal`() {
+    fun `dado el ingreso de la estatura determinar cual es el peso ideal`() {
         val pesoIdeal = calcularPesoIdeal( 173 )
         assertTrue(pesoIdeal == 73)
     }
