@@ -6,7 +6,7 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `calcular si el numero que se ingreso si es multuipli de seis`() {
+    fun `dado un numero 12 entonces dar que es divisible de 6`() {
         val siEsMultiploDeSeis = calcularMultiploDeSeis(12)
         assertTrue(siEsMultiploDeSeis)
     }
