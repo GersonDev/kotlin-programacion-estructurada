@@ -1,5 +1,6 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+   println("programa que imprima en pantalla los enteros del 1 al 30 con sus recíprocos:")
+   calcularReciproco()
 }
