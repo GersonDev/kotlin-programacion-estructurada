@@ -1,5 +1,6 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+    println("PROGRAMA QUE LLENA UN VERTOR  CON 0 EN LAS POSICIONES PARES Y 1 EN LAS POSICONES IMPARES")
+    imprimirCalcularParesYImpares()
 }
