@@ -13,7 +13,7 @@ class UtilitariosKtTest {
 
     @Test
     fun `dado el numero 11, entonces asertar que es impar`() {
-        val esPar = esUnNumeroPar(11)
-        assertFalse(esPar)
+        val esImpar = esUnNumeroPar(11)
+        assertFalse(esImpar)
     }
 }
