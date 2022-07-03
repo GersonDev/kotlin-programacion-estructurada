@@ -6,7 +6,7 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `ingresando un numero calcular si es de divisible de 14`() {
+    fun `dado un numero 28 debe ser divisible de 14 `() {
         val siEsDivisible = calcularDivisibleDeCatorse(28)
         assertTrue(siEsDivisible)
     }
