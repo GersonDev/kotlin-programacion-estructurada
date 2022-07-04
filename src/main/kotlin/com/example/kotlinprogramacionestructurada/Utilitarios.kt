@@ -1,15 +1,28 @@
 package com.example.kotlinprogramacionestructurada
+
 fun calcularDiagonal() {
-    val matriz = arrayOf(
-        intArrayOf(-1, -1, -1),
-        intArrayOf(-1, -1, -1),
-        intArrayOf(-1, -1, -1)
-    )
-    for (i in 0..2) {
+    var mo = 0
+    var me = 0
+    var h = 0
+    var k = 0
+    var array: Array<Int> = Array(10) { -1 }
+    for (i in 0..9) {
         println("Dame dato")
-        matriz[i][i] = readLine()!!.toInt()
+        array[i] = readLine()!!.toInt()
+        if (i == 1) {
+            mo = array[i]
+            me = array[i]
+            h = i
+            k = i
+        }
+        if (array[i] > mo) {
+            mo = array[i]
+            h = i
+        }
+        if (array[i] < me) {
+            me = array[i]
+            k = i
+        }
     }
-    for (i in 0..2) {
-        println(matriz[i][i])
-    }
+    println("Mayor:$mo,posicion:$h,menor:$me,posicion:$k")
 }

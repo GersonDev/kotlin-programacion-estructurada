@@ -1,6 +1,6 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("Escribir un programa que coloque datos en la diagonal principal de una matriz de 3 X 3")
+    println("Escribir un programa que indiquen los elementos mayor y menor en un arreglo de 10 posiciones.")
     calcularDiagonal()
 }
