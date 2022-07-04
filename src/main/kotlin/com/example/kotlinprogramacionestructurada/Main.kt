@@ -1,5 +1,6 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+    println("Programa que dice que planta produce mas")
+    calcularProduccion()
 }
