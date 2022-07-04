@@ -1,35 +1,21 @@
 package com.example.kotlinprogramacionestructurada
 
-fun calcularElQueVendioMas() {
-    var a = 0
-    var h = 0
-    var k = 0
-    var ma = 0
-    //INCIO DE UNA MATRIZ
-    val filas = 3
-    val columnas = 3
-    val matriz = arrayOf(
-        intArrayOf(-1, -1, -1),
-        intArrayOf(-1, -1, -1),
-        intArrayOf(-1, -1, -1)
-    )
-    //FINAL DE LA MATRIZ
-    for (i in 0..filas - 1) {
-        for (j in 0..columnas - 1) {
-            println("Dame el dato del cajero: $i , del dia $j")
-            matriz[i][j] = readLine()!!.toInt()
-            a += matriz[i][j]
-            if (i == 1 && j == 1) {
-                ma = matriz[i][j]
-                h = 1
-                k = 1
-            }
-            if (matriz[i][j] > ma) {
-                ma = matriz[i][j]
-                h = i
-                k = j
-            }
+fun calcularBusqueda(){
+    val array: Array<Int> = Array(10) { -1 }
+    for (i in 0..9) {
+        println("INGRESE EL NUMERO  EN LA POSICION $i ")
+        array[i] = readLine()!!.toInt()
+    }
+    println("INGRESE NUMERO A BUSCAR")
+    val numeroABuscar = readLine()!!.toInt()
+    var posicion = 0
+    for (i in 0..9) {
+        if (array[i] == numeroABuscar) {
+            println("el  numero $numeroABuscar se encuentra en la posicion $i")
+            posicion = i
         }
     }
-    println("El cajero que vendio mas: $h en el dia $k  y total de ventas fue: $a")
+    if (posicion != 0) {
+        println("NUMERO NO ENCONTRADO")
+    }
 }
