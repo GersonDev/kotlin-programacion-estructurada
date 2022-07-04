@@ -1,12 +1,9 @@
 package com.example.kotlinprogramacionestructurada
 
-fun calcularCuadrado(primerNumero:Int):Int {
-    return primerNumero*primerNumero
+fun calcularSuma(primerNumero:Int,segundoNumero:Int):Int {
+    return primerNumero+segundoNumero
 }
-fun calcularCubo(primerNumero:Int):Int {
-    return primerNumero*primerNumero*primerNumero
-}
-fun imprimirResultado(cuadrado:Int,cubo:Int){
-    println("Cuadrado es:$cuadrado")
-    println("Cubo es:$cubo")
+fun imprimirResultado(suma:Int){
+    println("la suma es:$suma")
+
 }

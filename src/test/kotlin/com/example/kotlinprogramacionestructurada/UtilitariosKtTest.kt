@@ -6,13 +6,9 @@ import org.junit.Assert.*
 class UtilitariosKtTest {
 
     @Test
-    fun `dado  el numero 3 obtener el cuadrado que es 9 `() {
-        val cuadrado = calcularCuadrado(3)
-        assertTrue(cuadrado == 9)
+    fun `dado  los dos numeros 5 y 5 obtener la suma 10 `() {
+        val suma = calcularSuma(5,5)
+        assertTrue(suma == 10)
     }
-    @Test
-    fun `dado  el numero 3 obtener el cubo que es 27 `() {
-        val cubo = calcularCubo(3)
-        assertTrue(cubo == 27)
-    }
+
 }
