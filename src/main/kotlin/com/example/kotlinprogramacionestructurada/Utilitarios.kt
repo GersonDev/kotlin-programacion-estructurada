@@ -1,7 +1,8 @@
 package com.example.kotlinprogramacionestructurada
 
-fun calcularNumerosALaIzquierda(){
+fun calcularNumerosALaIzquierda(primerNumero:Int){
     var c = 0
+    var primerNumero=primerNumero
     do {
         primerNumero /= 10
         c += 1
