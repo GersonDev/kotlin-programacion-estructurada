@@ -1,5 +1,8 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+    println("Programa que de cuantos elementos positivos da el usuarios:")
+    println("¿De que tamanaño quieres que sea tu vector")
+    val tamañoDelVector = readLine()!!.toInt()
+    imprimirElementosPositivos(tamañoDelVector)
 }
