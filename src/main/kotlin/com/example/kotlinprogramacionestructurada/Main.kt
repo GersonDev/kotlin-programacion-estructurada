@@ -1,8 +1,6 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("Programa para comprobar si un numero es multiplo de 6")
-    println("Dame un numero")
-    val primerNumero= readLine()!!.toInt()
-    imprimirMultiplo(primerNumero)
+    println("Escribir un programa que indique los elementos mayor y menor en un arreglo de 10 posiciones.")
+    calcularDiagonal()
 }
