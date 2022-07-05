@@ -1,5 +1,7 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("${calcularSuma(5,6)}")
+
+    println("Programa que lee un vector e indica impares y multiplos de 3")
+    calcularImparesYMultiplos()
 }
