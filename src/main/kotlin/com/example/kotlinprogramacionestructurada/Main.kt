@@ -1,8 +1,8 @@
 package com.example.kotlinprogramacionestructurada
 
 fun main() {
-    println("Escribir un programa que indique cuantos números hay a la izquierda de una cantidad.:")
-    println("Dame dato:")
-    var primerNumero = readLine()!!.toInt()
-
+    println("Programa para comprobar si un numero es multiplo de 6")
+    println("Dame un numero")
+    val primerNumero= readLine()!!.toInt()
+    imprimirMultiplo(primerNumero)
 }
